@@ -221,7 +221,7 @@ void Window::checkNumber(wxCommandEvent &event) {
 		// Check if the number is equals to the original number
 		if (num == this->originalNumber)
 		{
-			// Setting the result label text, color, resultPanel background color and clue Label Text
+			// Setting the result label text, color and clue Label Text
 			this->clueLabel->SetLabelText("You won the game at " + to_string(this->guesses) + " guesses");
 			this->resultLabel->SetForegroundColour(wxColor(0, 255, 34));
 			this->resultLabel->SetLabelText("That's Correct");
@@ -231,7 +231,7 @@ void Window::checkNumber(wxCommandEvent &event) {
 		// Check if the number is greater than the original number
 		else if (num > this->originalNumber)
 		{
-			// Setting the result label text, color, resultPanel background color and clue Label Text
+			// Setting the result label text, color and clue Label Text
 			this->clueLabel->SetLabelText("The number is greater than the Original number");
 			this->resultLabel->SetForegroundColour(wxColor(226, 49, 73));
 			this->resultLabel->SetLabelText("That's Incorrect");
@@ -241,7 +241,7 @@ void Window::checkNumber(wxCommandEvent &event) {
 		// This condition will be executed only when other two condition returns FALSE
 		else
 		{
-			// Setting the result label text, color, resultPanel background color and clue Label Text
+			// Setting the result label text, color and clue Label Text
 			this->clueLabel->SetLabelText("The number is less than the Original number");
 			this->resultLabel->SetForegroundColour(wxColor(226, 49, 73));
 			this->resultLabel->SetLabelText("That's Incorrect");
