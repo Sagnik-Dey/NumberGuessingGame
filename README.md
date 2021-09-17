@@ -3,10 +3,9 @@ This is a number guessing game made using wxWidgets in C++
 This is a GUI Project and made by using wxWidgets DLLS 
 
 ## Some screenshots of the application
-![Screenshot of the application](Screenshot%20(90).png)
-![Screenshot of the application](Screenshot%20(91).png)
-
-![Screenshot of the application](Screenshot%20(92).png)
+![Screenshot (90)](https://user-images.githubusercontent.com/85222136/133738146-65fc570e-d4d9-49db-b599-403f340736dc.png)
+![Screenshot (91)](https://user-images.githubusercontent.com/85222136/133738194-4c953f11-85b9-4f81-ad82-53b68c9b28f8.png)
+![Screenshot (92)](https://user-images.githubusercontent.com/85222136/133738231-5db2dc1e-98c3-42e1-b2fa-4b952bc063c1.png)
 
 ## LICENSE
 
